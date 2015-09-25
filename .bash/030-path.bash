@@ -8,7 +8,7 @@ $MAC && PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 PATH="$HOME/.rvm/bin:$PATH"
 
 # Composer packages (Boris, Drush, etc.)
-PATH="$HOME/.composer/vendor/bin:$PATH"
+PATH="$HOME/.composer/packages/vendor/bin:$PATH"
 
 # Manually installed packages
 for bin in $HOME/opt/*/bin; do
@@ -37,3 +37,9 @@ if which manpath >/dev/null 2>&1; then
     MANPATH="$HOME/opt/git-extras-man:$MANPATH"
     export MANPATH
 fi
+
+# Tool to debug the path
+debug_path()
+{
+    echo -e "${PATH//:/\\n}"
+}
