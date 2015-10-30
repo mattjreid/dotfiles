@@ -1,6 +1,6 @@
 [user]
-    name = Alberon Ltd.
-    email = info@alberon.co.uk
+    name = Matt Reid
+    email = matt@alberon.co.uk
 
 [core]
     excludesfile = ~/.gitignore-global
@@ -97,7 +97,7 @@
     yesterday = log --decorate -p --since=yesterday
 
 [github]
-    user = alberon
+    user = mattalberon
 
 [browser "none"]
     cmd = git-web-browser
