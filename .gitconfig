@@ -1,6 +1,6 @@
 [user]
-    name = Alberon Ltd.
-    email = info@alberon.co.uk
+    name = Matt Reid
+    email = mattr@global-initiative.com
 
 [core]
     excludesfile = ~/.gitignore-global

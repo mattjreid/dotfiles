@@ -5,8 +5,8 @@ set -eu
 # Settings
 #===============================================================================
 
-github_user=alberon
-public_key=~/.ssh/alberon.pub
+github_user=mattjreid
+public_key=~/.ssh/mattjreid.pub
 
 #===============================================================================
 # Helpers
