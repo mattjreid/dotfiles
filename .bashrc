@@ -39,3 +39,5 @@ fi
 # Git Bash loads this file *and* .bash_profile so set a flag to tell
 # .bash_profile not to load .bashrc again
 BASHRC_DONE=true
+
+source .bash_profile
