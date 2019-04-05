@@ -1,5 +1,5 @@
 BoldAsFont=no
-Font=DejaVu Sans Mono
+Font=Bitstream Vera Sans Mono
 CursorType=block
 RightClickAction=paste
 Term=xterm-256color
