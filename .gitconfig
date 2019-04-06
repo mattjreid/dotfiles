@@ -1,6 +1,6 @@
 [user]
     name = Matt Reid
-    email = matt@alberon.co.uk
+    email = mattr@global-initiative.com
 
 [core]
     excludesfile = ~/.gitignore-global
@@ -116,7 +116,7 @@
     yesterday    = log --decorate -p --since=yesterday
 
 [github]
-    user = mattalberon
+    user = mattjreid
 
 [browser "none"]
     cmd = git-web-browser
